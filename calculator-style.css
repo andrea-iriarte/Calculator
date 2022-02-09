@@ -1,0 +1,91 @@
+#shape{
+    height: 500px;
+    width: 700px;
+    background-color: rgb(19, 90, 221);
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#display{
+    
+    height: 70px;
+    width: 400px;
+    position: absolute;
+    left: 21%;
+    top: 15%;
+    
+    background-color: rgb(220, 206, 247);
+}
+
+.digit-buttons{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: rgb(170, 226, 243);
+    color: rgb(37, 28, 122);
+    border: none;
+   
+    margin-top: 30px;
+}
+.digit-buttons:hover{
+    background-color: rgb(107, 154, 216);
+}
+
+.function-buttons{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: rgb(243, 231, 213);
+    color: rgb(53, 28, 122);
+    border: none;
+   
+    margin-top: 30px;
+}
+.function-buttons:hover{
+    background-color: rgb(240, 227, 193);
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px 60px;
+    position: absolute;
+    left: 170px;
+    top: 130px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+button{
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    font-family: 'Orbitron', sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+#enter{
+    background-color: rgb(235, 196, 253);
+}
+
+#enter:hover{
+    background-color: rgb(216, 166, 230);
+}
+
+
+
+body{
+    background-color: rgb(157, 170, 229);
+}
+
+#display{
+    text-align: right;
+    font-size: 40px;
+    color: rgb(64, 57, 104);
+}
+
+#decimal{
+    font-size: 25px;
+}
